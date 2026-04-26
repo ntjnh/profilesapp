@@ -13,7 +13,7 @@ frontend:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: .amplify/artifacts/cdk.out
+    baseDirectory: dist
     files:
       - '**/*'
   cache:
