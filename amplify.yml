@@ -4,6 +4,7 @@ backend:
     build:
       commands:
         - npm install --legacy-peer-deps
+        - npx ampx generate outputs --branch main --app-id d32ru33poegta9
 frontend:
   phases:
     preBuild:
